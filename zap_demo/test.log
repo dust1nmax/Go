@@ -1,0 +1,10 @@
+1.7906655333737676e+09	error	Error fetching url...{url 15 0 www.sogo.com <nil>} {error 26 0  Get "www.sogo.com": unsupported protocol scheme ""}
+1.790665533855879e+09	info	success..{statusCode 15 0 404 Not Found <nil>} {url 15 0 http://www.sogo.com <nil>}
+1.790665668684733e+09	error	Error fetching url...{url 15 0 www.sogo.com <nil>} {error 26 0  Get "www.sogo.com": unsupported protocol scheme ""}
+1.7906656688638163e+09	info	success..{statusCode 15 0 404 Not Found <nil>} {url 15 0 http://www.sogo.com <nil>}
+2026-09-29T15:12:44.060+0800	error	Error fetching url...{url 15 0 www.sogo.com <nil>} {error 26 0  Get "www.sogo.com": unsupported protocol scheme ""}
+2026-09-29T15:12:45.966+0800	info	success..{statusCode 15 0 404 Not Found <nil>} {url 15 0 http://www.sogo.com <nil>}
+2026-09-29T15:14:17.074+0800	error	zap_demo/main.go:58	Error fetching url...{url 15 0 www.sogo.com <nil>} {error 26 0  Get "www.sogo.com": unsupported protocol scheme ""}
+2026-09-29T15:14:17.486+0800	info	zap_demo/main.go:64	success..{statusCode 15 0 404 Not Found <nil>} {url 15 0 http://www.sogo.com <nil>}
+2026-09-29T15:22:08.981+0800	error	zap_demo/main.go:72	Error fetching url...{url 15 0 www.sogo.com <nil>} {error 26 0  Get "www.sogo.com": unsupported protocol scheme ""}
+2026-09-29T15:22:11.972+0800	info	zap_demo/main.go:78	success..{statusCode 15 0 404 Not Found <nil>} {url 15 0 http://www.sogo.com <nil>}

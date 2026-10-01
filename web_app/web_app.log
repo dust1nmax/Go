@@ -1,0 +1,2 @@
+2026-10-01T14:40:56.157+0800	DEBUG	web_app/main.go:34	logger init success
+2026-10-01T14:40:56.157+0800	ERROR	mysql/mysql.go:26	connect DB failed 	{"error": "dial tcp 127.0.0.1:13306: connect: connection refused"}
