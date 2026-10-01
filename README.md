@@ -1,3 +1,5 @@
+## config.yaml
+
 app:
   name: "web_app"
   mode: "dev"
@@ -14,10 +16,10 @@ mysql:
   host: "127.0.0.1"
   port: 13306
   user: "root"
-  password: "123456"
+  password: "xxx"
   dbname: "sql_demo"
-  maxopenconns: 200
-  maxidleconns: 50
+  MaxOpenConns: 200
+  MaxIdleConns: 50
 
 redis:
   host: "127.0.0.1"
@@ -25,3 +27,5 @@ redis:
   db: 0
   password: ""
   poolsize: 100
+
+

@@ -1,6 +1,7 @@
 package logger
 
 import (
+	"Go/web_app/settings"
 	"net"
 	"net/http"
 	"net/http/httputil"
@@ -19,8 +20,12 @@ import (
 var logger *zap.Logger
 var sugarLogger *zap.SugaredLogger
  
-func Init() (err error) {
-	writeSyncer := getLogWriter(viper.GetString("log.filename"), viper.GetInt("log.max_size"), viper.GetInt("log.max_age"), viper.GetInt("log.max_backups"))
+func Init(cfg *settings.LogConfig) (err error) {
+	writeSyncer := getLogWriter(
+		cfg.FileName, 
+		cfg.Max_size, 
+		cfg.Max_backups, 
+		cfg.Max_age)
 	encoder := getEncoder()
 	var l = new(zapcore.Level)
 	err = l.UnmarshalText([]byte(viper.GetString("log.level")))
